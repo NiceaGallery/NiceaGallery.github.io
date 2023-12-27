@@ -1,0 +1,916 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #FFE5E5;
+  color: #4D3C77;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: auto;
+	position:sticky;
+}
+
+.logo a {
+	font-size: 30px;
+	font-weight: 800;
+	float: left;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Geneva, Verdana, sans-serif;
+	color: #FFf;
+}
+
+
+.menu {
+	float: right;
+}
+
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position:-webkit-sticky;
+  background-color: #1640D6;
+	top: 0;
+	z-index: 1;
+	border-bottom: 1px solid #A2678A;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+	
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight:lighter;
+	font text-align: center;
+    padding: 0px 16px 0px 16px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+nav ul li a:hover {
+	border-radius: 40px;
+	background-color: #ED5AB3;
+    transition: all .3s ease-in-out
+}
+
+.instagram a:hover {
+  border-radius:50%;
+	background-color: #C2D9FF;
+    transition: all .3s ease-in-out
+}
+
+.contenttitle {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: 27px;
+color: #001B79;
+margin-top: 35px;
+font-weight: bold;
+}
+
+.colom .contenttitle {
+  border-style: solid;
+	border-width: 100%;
+	background: #FFE5E5;
+	border-bottom: 3px solid #FF90C2;
+	border-top: 1px solid #FFE5E5;
+	border-left: 1px solid #F9F5F6;
+	border-right:  1px solid #FFE5E5;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.home {
+	background-image: url(image/backgroundhome.jpg);
+    min-height: 100%;
+background-size:cover;
+background-position: center;
+filter: opacity(70%);
+}
+
+.home_text {
+    color: #F3F4ED;
+    font-size: 60px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    text-shadow: 4px 4px 8px #000000, 
+    7px 7px 12px #04021c;
+}
+
+.comb {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  position:static;
+  border-radius: 0;
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container h1{
+  color: #ED5AB3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px; 
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.container h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.container h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.comb h1 {
+  color: #ED5AB3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.comb h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 80px;
+}
+
+
+iframe {
+    width: 640px;
+    height: 360px;
+    position:absolute;
+    top: 50%;
+    margin-top: 1600px;
+    margin-left: auto;
+    margin-left: auto;
+    margin-bottom: 80px;
+    transform: translate(50%, -50%);
+  }
+
+  .batikhouse h1 {
+    color: #ED5AB3;
+    margin-top: 500px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+  }
+
+  .batikhouse h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .batikhouse h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+  }
+
+
+/*BEADS GRID*/
+.grid-container {
+  padding: 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 24.5vw;
+    grid-gap: 5vw; /* optional gutter , use "vw" instead of "px" to keep proportions responsive */
+  }
+  
+  .griditem {
+    background-size: cover;
+    background-position: center;
+    padding: 2vw;
+    font-size: 0.8em;
+    box-sizing: border-box;
+  }
+  .griditem:hover {
+    cursor: pointer;
+    filter: contrast(80%) brightness(50%) 
+  }
+  /* set background images*/
+  .image1 {
+    background-position: left center;
+    background-image: url(image/beads1/ariel.jpg);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image2 {
+    background-image: url("image/beads1/jadepink.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image3 {
+    background-image: url("image/beads1/pitabiru.jpeg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image4 {
+    background-image: url("image/beads2/ocean.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image5 {
+    background-image: url("image/beads2/bluedaisy.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image6 {
+    background-image: url("image/beads2/tinkerbell.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image7 {
+    background-image: url("image/beads3/pitaputih.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image8 {
+    background-image: url("image/beads3/kalung.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image9 {
+    background-image: url("image/beads3/colorful.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image10 {
+    background-image: url("image/beads4/rapunzel.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image11 {
+    background-image: url("image/beads4/purple.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image12 {
+    background-image: url("image/beads4/starry.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image13 {
+    background-image: url("image/beads5/moana.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image14 {
+    background-image: url("image/beads5/butterfly.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  .image15 {
+    background-image: url("image/beads5/pitapink.jpg");
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+  }
+  
+  .img-title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .grid .instagram p {
+    text-align: center;
+  }
+
+  /*full image modal */
+  .modal1 {
+    z-index: 3;
+    display: none;
+    position: fixed;
+    margin-bottom: 20px;
+    left: 0;
+    top: 0;
+    /* below covers window area*/
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff; /* set window back ground color */
+  }
+  .modal-content {
+    display: block;
+  }
+  .modal-btn {
+    color: red;
+    padding: 4px 8px;
+    position: absolute;
+    right: 10vw;
+    top: 1vh;
+  }
+  .modal-btn:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  .animate-zoom {
+    animation: animatezoom 0.8s;
+  }
+  @keyframes animatezoom {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  .topright {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .mod-img {
+    /* rsponsive display full image within in view area */
+    object-fit: scale-down;
+    display: block;
+    max-height: 99vh;
+    max-width: 99vw;
+    margin: 0.5vh auto;
+  }
+  mod-img:hover {
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    color: inherit;
+  }
+  
+  
+    
+  figure {
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+		position: relative;
+  }
+  figcaption {
+   position:inherit;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(189, 189, 188, 0.422);
+    padding: 1rem 1rem;
+    span {
+        color: #fff;
+        display: block;
+        &.img-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+            @media (min-width: 376px) {
+                font-size: 1.5rem;
+            }
+        }
+        &.img-description {
+            font-size: 0.9rem;
+            @media (min-width: 376px) {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+/*FOTO ABOUT*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container3 {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+/*FOTO RAK*/
+/* Slideshow container4 */
+.slideshow-container4 {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* ABOUT*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-bottom: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+}
+
+.profiletext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:15px;
+  text-align: center;
+  padding: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 30px;
+}
+
+/*BATIK*/
+.newImg {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+  margin-right: 50px;
+  overflow: hidden;
+  position:static;
+  border-radius: 0;
+  float: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 20;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/*text batik*/
+.text-box {
+  color: #4D3C77;
+}
+
+.text-box h5 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ED5AB3;
+  font-weight: 900;
+  padding-top: 140px;
+  padding-bottom: 18px;
+  padding-left: 30px;
+  padding-right: 55px;
+  font-size: 22px;
+}
+
+.text-box h6 {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-right: 60px;
+  padding-bottom: 0px;
+}
+
+.text-box h4 {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 30px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+  margin-bottom: 70px;
+}
+
+/*TEXT LUKISAN*/
+.painttitle h1 {
+  color: #ED5AB3;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-box p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+ margin-left: 300px;
+ margin-right: 300px;
+  padding-bottom: 0px;
+}
+
+.text-box h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+ margin-left: 300px;
+ margin-right: 300px;
+  padding-bottom: 80px;
+}
+
+
+
+/*footer*/
+.site-footer {
+  margin-top: 100px; /* Remove */
+	position: relative;
+	background-color:#1640D6;
+	width: 100%;	
+	bottom: 0; 
+}
+
+.site-footer .container2 {
+	max-width: 85%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.site-footer .container2 h1 {
+	font-size: 16px;
+}
+
+.site-footer .container2 h2 {
+	font-size: 12px;
+	float: left;
+}
+
+.site-footer .grid-container2 a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 16.25px;
+}
+
+.site-footer .grid-item h1 {
+	padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+	color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.site-footer .grid-item h2 {
+	padding: 10px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+	color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.site-footer .grid-container2 .inner-grid-container2 {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: left;
+  margin-left: 0;
+}
+
+.site-footer .container2 hr { 
+	display: block; 
+	height: 1px;
+	border: 0; border-top: 2px solid #FF90C2;
+	margin: 1px; 
+	padding: 0; 
+}
+
+.site-footer .container2 p {
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+}
+
+.site-footer .container2 .logo-img {
+	width: 180px;
+	height: 140px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .25); 
+	cursor: pointer;
+}
+
+.site-footer .grid-container2 .grid-item .social-buttons {
+	padding-top: 20px;
+}
+
+.site-footer .grid-container2 .grid-item .social-buttons a {
+	display: inline-flex;
+  margin-top: 200px;
+	text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 17px;
+	width: 90px;
+	height: 60px;
+	color: #ED5AB3;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin: 0 8px;
+}
+
+
+.circle-icon {
+  margin-top: 80px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+    padding:12px;
+    border-radius: 50%;
+}
+
+.circle-icon:hover
+{
+  transition: .3s ease-in-out;
+  background: #FFD1E3;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Screen Sizes] */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+	.site-footer {
+		height: 620px;
+		bottom: 0; 
+	}
+
+	.site-footer .grid-container2 {
+		display: grid;
+		grid-template-columns: 400px;
+	}
+
+	.site-footer .grid-container2 .inner-grid-container2 {
+		display: grid;
+		grid-template-columns: auto auto ;
+		text-align: left;
+	}
+
+
+}
+
+/*========================================================*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	.site-footer {
+		height: 260px;
+		bottom: 0;
+	}
+
+	.site-footer .grid-container2 {
+		display: grid;
+		grid-template-columns: 350px auto 350px;
+	}
+
+	.site-footer .grid-container2 .inner-grid-container2{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		text-align: left;
+	}
+
+}
+
+.colom .intro h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 150px;
+  color: #001B79;
+  border-style: solid;
+	border-width: 100%;
+	background: #FFE5E5;
+	border-bottom: 3px solid #FF90C2;
+	border-top: 1px solid #FFE5E5;
+	border-left: 1px solid #F9F5F6;
+	border-right:  1px solid #FFE5E5;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+.introtext h2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.introtext h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 150px;
+}
+
+.referencetext h1 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: inherit;
+}
+.referencetext h2 {
+  color: #ED5AB3;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-right: 650px;
+  text-decoration: dashed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: inherit;
+}
+
+.referencetext h2:hover {
+  border-radius:40px;
+	background-color: #C2D9FF;
+    transition: all .3s ease-in-out
+}
+
+.referencetext h3 {
+  color: #ED5AB3;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 200px;
+  margin-right: 650px;
+  margin-bottom: 200px;
+  text-decoration: dashed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: inherit;
+}
+
+.referencetext h3:hover {
+  border-radius:40px;
+	background-color: #C2D9FF;
+    transition: all .3s ease-in-out
+}
